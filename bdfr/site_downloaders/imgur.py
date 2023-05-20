@@ -52,7 +52,7 @@ class Imgur(BaseDownloader):
             "referer": "https://imgur.com/",
             "origin": "https://imgur.com",
             "content-type": "application/json",
-            "Authorization": "Client-ID 546c25a59c58ad7",
+            "Authorization": "Client-ID 65a5c1418e8d1fb",
         }
         res = Imgur.retrieve_url(link, headers=headers)
 
